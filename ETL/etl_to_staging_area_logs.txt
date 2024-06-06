@@ -1,0 +1,228 @@
+execution time: 2024-05-03 10:12:35,775 - Details: Extracting all the csv files was successful
+execution time: 2024-05-03 10:12:36,102 - Details: error occured: error loading tables as dataframes
+Traceback (most recent call last):
+  File "C:\Users\kmakh\AppData\Local\Temp\ipykernel_3296\1418657383.py", line 4, in <module>
+    df_country = pd.read_csv(countryTB)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\samuk\\OneDrive\\Documents\\BITanium\\Project\\Data_Warehousing_Project\\2024_Interns _DW Project\\McD_Data\\data\\Country.csv'
+execution time: 2024-05-03 10:18:26,150 - Details: Extracting all the csv files was successful
+execution time: 2024-05-03 10:18:26,178 - Details: error occured: error loading tables as dataframes
+Traceback (most recent call last):
+  File "C:\Users\kmakh\AppData\Local\Temp\ipykernel_3296\1418657383.py", line 4, in <module>
+    df_country = pd.read_csv(countryTB)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\samuk\\OneDrive\\Documents\\BITanium\\Project\\Data_Warehousing_Project\\2024_Interns _DW Project\\McD_Data\\data\\Country.csv'
+execution time: 2024-05-03 10:22:08,901 - Details: Extracting all the csv files was successful
+execution time: 2024-05-03 10:22:08,949 - Details: error occured: error loading tables as dataframes
+Traceback (most recent call last):
+  File "C:\Users\kmakh\AppData\Local\Temp\ipykernel_3296\1418657383.py", line 4, in <module>
+    df_country = pd.read_csv(countryTB)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\samuk\\OneDrive\\Documents\\BITanium\\Project\\Data_Warehousing_Project\\2024_Interns _DW Project\\McD_Data\\data\\Country.csv'
+execution time: 2024-05-03 10:23:36,015 - Details: Extracting all the csv files was successful
+execution time: 2024-05-03 10:23:36,087 - Details: error occured: error loading tables as dataframes
+Traceback (most recent call last):
+  File "C:\Users\kmakh\AppData\Local\Temp\ipykernel_3296\1418657383.py", line 4, in <module>
+    df_country = pd.read_csv(countryTB)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\samuk\\OneDrive\\Documents\\BITanium\\Project\\Data_Warehousing_Project\\2024_Interns _DW Project\\McD_Data\\data\\Country.csv'
+execution time: 2024-05-03 10:23:38,870 - Details: Extracting all the csv files was successful
+execution time: 2024-05-03 10:23:38,953 - Details: error occured: error loading tables as dataframes
+Traceback (most recent call last):
+  File "C:\Users\kmakh\AppData\Local\Temp\ipykernel_3296\1418657383.py", line 4, in <module>
+    df_country = pd.read_csv(countryTB)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\kmakh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\samuk\\OneDrive\\Documents\\BITanium\\Project\\Data_Warehousing_Project\\2024_Interns _DW Project\\McD_Data\\data\\Country.csv'
+execution time: 2024-05-03 10:26:08,124 - Details: Extracting all the csv files was successful
+execution time: 2024-05-03 10:26:11,402 - Details: 18 tables from csv's have been converted to dataframes successfully!!
+execution time: 2024-05-03 10:26:16,701 - Details: start time successfully loaded into staging_batch table
+execution time: 2024-05-03 10:26:16,709 - Details: batch id successfully loaded
+execution time: 2024-05-03 10:26:16,757 - Details: Table 'city' successfully loaded consists of 95 rows.
+execution time: 2024-05-03 10:26:16,770 - Details: Table 'country' successfully loaded consists of 1 rows.
+execution time: 2024-05-03 10:26:16,783 - Details: Table 'province' successfully loaded consists of 9 rows.
+execution time: 2024-05-03 10:26:16,800 - Details: Table 'day_part' successfully loaded consists of 6 rows.
+execution time: 2024-05-03 10:26:26,691 - Details: Table 'day_date' successfully loaded consists of 7672 rows.
+execution time: 2024-05-03 10:26:26,714 - Details: Table 'franchisee' successfully loaded consists of 1 rows.
+execution time: 2024-05-03 10:26:26,736 - Details: Table 'product_category' successfully loaded consists of 11 rows.
+execution time: 2024-05-03 10:26:26,962 - Details: Table 'stores' successfully loaded consists of 266 rows.
+execution time: 2024-05-03 10:26:26,978 - Details: Table 'product_group_level1' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 10:26:26,994 - Details: Table 'product_group_level2' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 10:26:27,021 - Details: Table 'product_group_level3' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 10:26:27,474 - Details: Table 'product_group_level4' successfully loaded consists of 1831 rows.
+execution time: 2024-05-03 10:26:27,491 - Details: Table 'sales_type' successfully loaded consists of 9 rows.
+execution time: 2024-05-03 10:26:27,509 - Details: Table 'trading_hours' successfully loaded consists of 2 rows.
+execution time: 2024-05-03 10:26:27,534 - Details: Table 'volumn_band' successfully loaded consists of 11 rows.
+execution time: 2024-05-03 10:26:27,590 - Details: Table 'owner_operator' successfully loaded consists of 37 rows.
+execution time: 2024-05-03 10:26:27,611 - Details: Table 'order_type' successfully loaded consists of 6 rows.
+execution time: 2024-05-03 10:38:09,164 - Details: Table 'daily_sales_products' successfully loaded consists of 1000000 rows.
+execution time: 2024-05-03 10:43:10,828 - Details: Extracting all the csv files was successful
+execution time: 2024-05-03 10:43:13,402 - Details: 18 tables from csv's have been converted to dataframes successfully!!
+execution time: 2024-05-03 10:43:13,842 - Details: start time successfully loaded into staging_batch table
+execution time: 2024-05-03 10:43:13,848 - Details: batch id successfully loaded
+execution time: 2024-05-03 10:43:13,894 - Details: Table 'city' successfully loaded consists of 95 rows.
+execution time: 2024-05-03 10:43:13,908 - Details: Table 'country' successfully loaded consists of 1 rows.
+execution time: 2024-05-03 10:43:13,920 - Details: Table 'province' successfully loaded consists of 9 rows.
+execution time: 2024-05-03 10:43:13,933 - Details: Table 'day_part' successfully loaded consists of 6 rows.
+execution time: 2024-05-03 10:43:23,348 - Details: Table 'day_date' successfully loaded consists of 7672 rows.
+execution time: 2024-05-03 10:43:23,369 - Details: Table 'franchisee' successfully loaded consists of 1 rows.
+execution time: 2024-05-03 10:43:23,390 - Details: Table 'product_category' successfully loaded consists of 11 rows.
+execution time: 2024-05-03 10:43:23,611 - Details: Table 'stores' successfully loaded consists of 266 rows.
+execution time: 2024-05-03 10:43:23,626 - Details: Table 'product_group_level1' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 10:43:23,643 - Details: Table 'product_group_level2' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 10:43:23,660 - Details: Table 'product_group_level3' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 10:43:24,089 - Details: Table 'product_group_level4' successfully loaded consists of 1831 rows.
+execution time: 2024-05-03 10:43:24,103 - Details: Table 'sales_type' successfully loaded consists of 9 rows.
+execution time: 2024-05-03 10:43:24,115 - Details: Table 'trading_hours' successfully loaded consists of 2 rows.
+execution time: 2024-05-03 10:43:24,131 - Details: Table 'volumn_band' successfully loaded consists of 11 rows.
+execution time: 2024-05-03 10:43:24,180 - Details: Table 'owner_operator' successfully loaded consists of 37 rows.
+execution time: 2024-05-03 10:43:24,217 - Details: Table 'order_type' successfully loaded consists of 6 rows.
+execution time: 2024-05-03 10:57:44,134 - Details: Table 'daily_sales_products' successfully loaded consists of 1000000 rows.
+execution time: 2024-05-03 10:57:44,161 - Details: end_load_date updated successfully.
+execution time: 2024-05-03 10:57:44,164 - Details: total time taken to load the staging area = 0:14:30.533058
+execution time: 2024-05-03 11:10:10,972 - Details: Extracting all the csv files was successful
+execution time: 2024-05-03 11:10:14,367 - Details: 18 tables from csv's have been converted to dataframes successfully!!
+execution time: 2024-05-03 11:10:15,125 - Details: start time successfully loaded into staging_batch table
+execution time: 2024-05-03 11:10:15,149 - Details: batch id successfully loaded
+execution time: 2024-05-03 11:10:15,190 - Details: Table 'city' successfully loaded consists of 95 rows.
+execution time: 2024-05-03 11:10:15,208 - Details: Table 'country' successfully loaded consists of 1 rows.
+execution time: 2024-05-03 11:10:15,218 - Details: Table 'province' successfully loaded consists of 9 rows.
+execution time: 2024-05-03 11:10:15,237 - Details: Table 'day_part' successfully loaded consists of 6 rows.
+execution time: 2024-05-03 11:10:18,382 - Details: Table 'day_date' successfully loaded consists of 7672 rows.
+execution time: 2024-05-03 11:10:18,392 - Details: Table 'franchisee' successfully loaded consists of 1 rows.
+execution time: 2024-05-03 11:10:18,402 - Details: Table 'product_category' successfully loaded consists of 11 rows.
+execution time: 2024-05-03 11:10:18,746 - Details: Table 'stores' successfully loaded consists of 266 rows.
+execution time: 2024-05-03 11:10:18,754 - Details: Table 'product_group_level1' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 11:10:18,763 - Details: Table 'product_group_level2' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 11:10:18,777 - Details: Table 'product_group_level3' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 11:10:18,922 - Details: Table 'product_group_level4' successfully loaded consists of 1831 rows.
+execution time: 2024-05-03 11:10:18,933 - Details: Table 'sales_type' successfully loaded consists of 9 rows.
+execution time: 2024-05-03 11:10:18,943 - Details: Table 'trading_hours' successfully loaded consists of 2 rows.
+execution time: 2024-05-03 11:10:18,951 - Details: Table 'volumn_band' successfully loaded consists of 11 rows.
+execution time: 2024-05-03 11:10:18,966 - Details: Table 'owner_operator' successfully loaded consists of 37 rows.
+execution time: 2024-05-03 11:10:18,975 - Details: Table 'order_type' successfully loaded consists of 6 rows.
+execution time: 2024-05-03 11:13:52,826 - Details: Table 'daily_sales_products' successfully loaded consists of 1000000 rows.
+execution time: 2024-05-03 11:13:52,868 - Details: end_load_date updated successfully.
+execution time: 2024-05-03 11:13:52,884 - Details: total time taken to load the staging area = 0:03:37.948106
+execution time: 2024-05-03 11:47:09,639 - Details: Extracting all the csv files was successful
+execution time: 2024-05-03 11:47:12,358 - Details: 18 tables from csv's have been converted to dataframes successfully!!
+execution time: 2024-05-03 11:47:12,891 - Details: start time successfully loaded into staging_batch table
+execution time: 2024-05-03 11:47:12,896 - Details: batch id successfully loaded
+execution time: 2024-05-03 11:47:12,931 - Details: Table 'city' successfully loaded consists of 95 rows.
+execution time: 2024-05-03 11:47:12,943 - Details: Table 'country' successfully loaded consists of 1 rows.
+execution time: 2024-05-03 11:47:12,961 - Details: Table 'province' successfully loaded consists of 9 rows.
+execution time: 2024-05-03 11:47:12,976 - Details: Table 'day_part' successfully loaded consists of 6 rows.
+execution time: 2024-05-03 11:47:20,154 - Details: Table 'day_date' successfully loaded consists of 7672 rows.
+execution time: 2024-05-03 11:47:20,170 - Details: Table 'franchisee' successfully loaded consists of 1 rows.
+execution time: 2024-05-03 11:47:20,183 - Details: Table 'product_category' successfully loaded consists of 11 rows.
+execution time: 2024-05-03 11:47:20,351 - Details: Table 'stores' successfully loaded consists of 266 rows.
+execution time: 2024-05-03 11:47:20,364 - Details: Table 'product_group_level1' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 11:47:20,375 - Details: Table 'product_group_level2' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 11:47:20,388 - Details: Table 'product_group_level3' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 11:47:20,768 - Details: Table 'product_group_level4' successfully loaded consists of 1831 rows.
+execution time: 2024-05-03 11:47:20,781 - Details: Table 'sales_type' successfully loaded consists of 9 rows.
+execution time: 2024-05-03 11:47:20,789 - Details: Table 'trading_hours' successfully loaded consists of 2 rows.
+execution time: 2024-05-03 11:47:20,801 - Details: Table 'volumn_band' successfully loaded consists of 11 rows.
+execution time: 2024-05-03 11:47:20,821 - Details: Table 'owner_operator' successfully loaded consists of 37 rows.
+execution time: 2024-05-03 11:47:20,834 - Details: Table 'order_type' successfully loaded consists of 6 rows.
+execution time: 2024-05-03 11:59:39,909 - Details: Table 'daily_sales_products' successfully loaded consists of 1000000 rows.
+execution time: 2024-05-03 11:59:39,925 - Details: end_load_date updated successfully.
+execution time: 2024-05-03 11:59:39,928 - Details: total time taken to load the staging area = 0:12:27.188649
+execution time: 2024-05-03 13:50:08,174 - Details: Extracting all the csv files was successful
+execution time: 2024-05-03 13:50:11,227 - Details: 18 tables from csv's have been converted to dataframes successfully!!
+execution time: 2024-05-03 13:50:11,655 - Details: start time successfully loaded into staging_batch table
+execution time: 2024-05-03 13:50:11,666 - Details: batch id successfully loaded
+execution time: 2024-05-03 13:50:11,721 - Details: Table 'city' successfully loaded consists of 95 rows.
+execution time: 2024-05-03 13:50:11,733 - Details: Table 'country' successfully loaded consists of 1 rows.
+execution time: 2024-05-03 13:50:11,753 - Details: Table 'province' successfully loaded consists of 9 rows.
+execution time: 2024-05-03 13:50:11,776 - Details: Table 'day_part' successfully loaded consists of 6 rows.
+execution time: 2024-05-03 13:50:20,974 - Details: Table 'day_date' successfully loaded consists of 7672 rows.
+execution time: 2024-05-03 13:50:20,993 - Details: Table 'franchisee' successfully loaded consists of 1 rows.
+execution time: 2024-05-03 13:50:21,014 - Details: Table 'product_category' successfully loaded consists of 11 rows.
+execution time: 2024-05-03 13:50:21,258 - Details: Table 'stores' successfully loaded consists of 266 rows.
+execution time: 2024-05-03 13:50:21,278 - Details: Table 'product_group_level1' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 13:50:21,296 - Details: Table 'product_group_level2' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 13:50:21,321 - Details: Table 'product_group_level3' successfully loaded consists of 3 rows.
+execution time: 2024-05-03 13:50:21,882 - Details: Table 'product_group_level4' successfully loaded consists of 1831 rows.
+execution time: 2024-05-03 13:50:21,903 - Details: Table 'sales_type' successfully loaded consists of 9 rows.
+execution time: 2024-05-03 13:50:21,922 - Details: Table 'trading_hours' successfully loaded consists of 2 rows.
+execution time: 2024-05-03 13:50:21,947 - Details: Table 'volumn_band' successfully loaded consists of 11 rows.
+execution time: 2024-05-03 13:50:22,004 - Details: Table 'owner_operator' successfully loaded consists of 37 rows.
+execution time: 2024-05-03 13:50:22,031 - Details: Table 'order_type' successfully loaded consists of 6 rows.
+execution time: 2024-05-03 13:57:19,752 - Details: Table 'daily_sales_products' successfully loaded consists of 1000000 rows.
+execution time: 2024-05-03 13:57:19,765 - Details: end_load_date updated successfully.
+execution time: 2024-05-03 13:57:19,772 - Details: total time taken to load the staging area = 0:07:08.299922

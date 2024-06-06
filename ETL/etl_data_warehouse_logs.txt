@@ -1,0 +1,473 @@
+2024-05-03 11:05:36,607 - Number of rows in city : 95
+2024-05-03 11:05:36,611 - Number of rows in country : 1
+2024-05-03 11:05:36,614 - Number of rows in province : 9
+2024-05-03 11:05:36,618 - Number of rows in day_part : 6
+2024-05-03 11:05:36,797 - Number of rows in day_date : 7672
+2024-05-03 11:05:36,802 - Number of rows in franchisee : 1
+2024-05-03 11:05:36,806 - Number of rows in product_category : 11
+2024-05-03 11:05:36,814 - Number of rows in stores : 266
+2024-05-03 11:05:36,824 - Number of rows in product_group_level1 : 3
+2024-05-03 11:05:36,829 - Number of rows in product_group_level2 : 3
+2024-05-03 11:05:36,833 - Number of rows in product_group_level3 : 3
+2024-05-03 11:05:36,853 - Number of rows in product_group_level4 : 1831
+2024-05-03 11:05:36,859 - Number of rows in sales_type : 9
+2024-05-03 11:05:36,865 - Number of rows in trading_hours : 2
+2024-05-03 11:05:36,872 - Number of rows in volumn_band : 11
+2024-05-03 11:05:36,878 - Number of rows in owner_operator : 37
+2024-05-03 11:05:36,883 - Number of rows in order_type : 6
+2024-05-03 11:05:53,276 - Number of rows in daily_sales_products : 1000000
+2024-05-03 11:05:53,280 - Number of rows in dw_batch : 0
+2024-05-03 11:05:53,384 - loading tables as dataframes successul!
+2024-05-03 11:05:53,702 - dropping columns: sbID and/or dwbID successful!
+2024-05-03 11:05:53,732 - merging city,province and country tables successful!
+2024-05-03 11:05:53,738 - LocationID column successfully create
+2024-05-03 11:05:54,174 - Renamed columns McDelivery and McCafe for the stores table,and daily_sales_products 
+2024-05-03 11:05:54,177 - changing emails to not reference McDonald's successful
+2024-05-03 11:05:54,179 -  number of changed rows 11
+2024-05-03 11:05:54,181 -  number of changed rows 1 in franchisee table
+2024-05-03 11:05:54,245 -  number of changed rows 391 in ProductGroupLevel4 table,ProductLevel4Desc column. removed macdonald's references
+2024-05-03 11:05:54,284 - Successfully removed non-valid emails. Number of rows changed 6,in stores table,column EmailAddress.
+2024-05-03 11:05:54,345 - Successfully removed non-valid contact numbers. Number of rows changed 44,in stores table,column ContactNumber.
+2024-05-03 11:05:54,401 - Successfully formated StartTime and EndTime to time data type in DayPart table
+2024-05-03 11:05:54,420 -  Successfully converted ContactNumber column to a string in OwnerOperator table 
+2024-05-03 11:05:54,440 - Successfully converted integers into boolean type in Active column in OwnerOperator and franchisee tables.
+2024-05-03 11:05:54,641 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:05:54,845 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:05:55,086 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:05:55,299 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:05:55,534 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:05:55,747 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:05:56,009 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:05:56,232 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:05:56,654 - start time successfully loaded into dw_batch table
+2024-05-03 11:05:56,885 - Table 'dim_country' successfully loaded.
+2024-05-03 11:05:56,900 - Table 'dim_province' successfully loaded.
+2024-05-03 11:05:56,909 - Table 'dim_city' successfully loaded.
+2024-05-03 11:05:56,915 - Table 'dim_order_type' successfully loaded.
+2024-05-03 11:05:56,921 - Table 'dim_sales_type' successfully loaded.
+2024-05-03 11:05:56,926 - Table 'dim_trading_hours' successfully loaded.
+2024-05-03 11:05:56,935 - Table 'dim_volumn_band' successfully loaded.
+2024-05-03 11:05:59,478 - Table 'dim_day_date' successfully loaded.
+2024-05-03 11:05:59,488 - Table 'dim_day_part' successfully loaded.
+2024-05-03 11:05:59,499 - Table 'dim_location' successfully loaded.
+2024-05-03 11:05:59,509 - Table 'dim_owner_operator' successfully loaded.
+2024-05-03 11:05:59,523 - Table 'dim_franchisee' successfully loaded.
+2024-05-03 11:05:59,532 - Table 'dim_product_category' successfully loaded.
+2024-05-03 11:05:59,541 - Table 'dim_product_group_level1' successfully loaded.
+2024-05-03 11:05:59,552 - Table 'dim_product_group_level2' successfully loaded.
+2024-05-03 11:05:59,563 - Table 'dim_product_group_level3' successfully loaded.
+2024-05-03 11:05:59,709 - Table 'dim_product_group_level4' successfully loaded.
+2024-05-03 11:05:59,777 - Table 'dim_stores' successfully loaded.
+2024-05-03 11:09:49,267 - error occured: Error loading table 'fact_daily_sales': Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2024-05-03 11:18:15,198 - Number of rows in city : 95
+2024-05-03 11:18:15,202 - Number of rows in country : 1
+2024-05-03 11:18:15,206 - Number of rows in province : 9
+2024-05-03 11:18:15,210 - Number of rows in day_part : 6
+2024-05-03 11:18:15,403 - Number of rows in day_date : 7672
+2024-05-03 11:18:15,409 - Number of rows in franchisee : 1
+2024-05-03 11:18:15,430 - Number of rows in product_category : 11
+2024-05-03 11:18:15,441 - Number of rows in stores : 266
+2024-05-03 11:18:15,448 - Number of rows in product_group_level1 : 3
+2024-05-03 11:18:15,458 - Number of rows in product_group_level2 : 3
+2024-05-03 11:18:15,465 - Number of rows in product_group_level3 : 3
+2024-05-03 11:18:15,507 - Number of rows in product_group_level4 : 1831
+2024-05-03 11:18:15,517 - Number of rows in sales_type : 9
+2024-05-03 11:18:15,528 - Number of rows in trading_hours : 2
+2024-05-03 11:18:15,537 - Number of rows in volumn_band : 11
+2024-05-03 11:18:15,550 - Number of rows in owner_operator : 37
+2024-05-03 11:18:15,562 - Number of rows in order_type : 6
+2024-05-03 11:18:34,698 - Number of rows in daily_sales_products : 1000000
+2024-05-03 11:18:34,701 - Number of rows in dw_batch : 0
+2024-05-03 11:18:34,702 - the total number of all rows = ,1009966
+2024-05-03 11:18:34,725 - loading tables as dataframes successul!
+2024-05-03 11:18:35,078 - dropping columns: sbID and/or dwbID successful!
+2024-05-03 11:18:35,107 - merging city,province and country tables successful!
+2024-05-03 11:18:35,120 - LocationID column successfully create
+2024-05-03 11:18:35,665 - Renamed columns McDelivery and McCafe for the stores table,and daily_sales_products 
+2024-05-03 11:18:35,666 - changing emails to not reference McDonald's successful
+2024-05-03 11:18:35,667 -  number of changed rows 11
+2024-05-03 11:18:35,668 -  number of changed rows 1 in franchisee table
+2024-05-03 11:18:35,700 -  number of changed rows 391 in ProductGroupLevel4 table,ProductLevel4Desc column. removed macdonald's references
+2024-05-03 11:18:35,758 - Successfully removed non-valid emails. Number of rows changed 6,in stores table,column EmailAddress.
+2024-05-03 11:18:35,787 - Successfully removed non-valid contact numbers. Number of rows changed 44,in stores table,column ContactNumber.
+2024-05-03 11:18:35,818 - Successfully formated StartTime and EndTime to time data type in DayPart table
+2024-05-03 11:18:35,842 -  Successfully converted ContactNumber column to a string in OwnerOperator table 
+2024-05-03 11:18:35,872 - Successfully converted integers into boolean type in Active column in OwnerOperator and franchisee tables.
+2024-05-03 11:18:36,127 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:18:36,334 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:18:36,550 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:18:36,752 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:18:37,043 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:18:37,265 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:18:37,471 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:18:37,664 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 11:18:37,714 - start time successfully loaded into dw_batch table
+2024-05-03 11:18:38,008 - Table 'dim_country' successfully loaded.
+2024-05-03 11:18:38,019 - Table 'dim_province' successfully loaded.
+2024-05-03 11:18:38,028 - Table 'dim_city' successfully loaded.
+2024-05-03 11:18:38,034 - Table 'dim_order_type' successfully loaded.
+2024-05-03 11:18:38,040 - Table 'dim_sales_type' successfully loaded.
+2024-05-03 11:18:38,044 - Table 'dim_trading_hours' successfully loaded.
+2024-05-03 11:18:38,049 - Table 'dim_volumn_band' successfully loaded.
+2024-05-03 11:18:40,211 - Table 'dim_day_date' successfully loaded.
+2024-05-03 11:18:40,221 - Table 'dim_day_part' successfully loaded.
+2024-05-03 11:18:40,232 - Table 'dim_location' successfully loaded.
+2024-05-03 11:18:40,238 - Table 'dim_owner_operator' successfully loaded.
+2024-05-03 11:18:40,245 - Table 'dim_franchisee' successfully loaded.
+2024-05-03 11:18:40,250 - Table 'dim_product_category' successfully loaded.
+2024-05-03 11:18:40,254 - Table 'dim_product_group_level1' successfully loaded.
+2024-05-03 11:18:40,261 - Table 'dim_product_group_level2' successfully loaded.
+2024-05-03 11:18:40,267 - Table 'dim_product_group_level3' successfully loaded.
+2024-05-03 11:18:40,378 - Table 'dim_product_group_level4' successfully loaded.
+2024-05-03 11:18:40,509 - Table 'dim_stores' successfully loaded.
+2024-05-03 11:29:00,764 - Table 'fact_daily_sales' successfully loaded.
+2024-05-03 11:29:00,771 - All tables have been successfully loaded. The file has been deleted
+2024-05-03 11:29:00,792 - Successfully finished loading at end_time:2024-05-03 11:29:00.792494+02:00
+2024-05-03 11:29:00,851 - end_load_date updated successfully.
+2024-05-03 11:29:00,902 - end_load_date updated successfully for table: city
+2024-05-03 11:29:00,904 - end_load_date updated successfully for table: country
+2024-05-03 11:29:00,906 - end_load_date updated successfully for table: province
+2024-05-03 11:29:00,908 - end_load_date updated successfully for table: day_part
+2024-05-03 11:29:01,024 - end_load_date updated successfully for table: day_date
+2024-05-03 11:29:01,027 - end_load_date updated successfully for table: franchisee
+2024-05-03 11:29:01,029 - end_load_date updated successfully for table: product_category
+2024-05-03 11:29:01,037 - end_load_date updated successfully for table: stores
+2024-05-03 11:29:01,039 - end_load_date updated successfully for table: product_group_level1
+2024-05-03 11:29:01,040 - end_load_date updated successfully for table: product_group_level2
+2024-05-03 11:29:01,042 - end_load_date updated successfully for table: product_group_level3
+2024-05-03 11:29:01,052 - end_load_date updated successfully for table: product_group_level4
+2024-05-03 11:29:01,054 - end_load_date updated successfully for table: sales_type
+2024-05-03 11:29:01,055 - end_load_date updated successfully for table: trading_hours
+2024-05-03 11:29:01,057 - end_load_date updated successfully for table: volumn_band
+2024-05-03 11:29:01,059 - end_load_date updated successfully for table: owner_operator
+2024-05-03 11:29:01,062 - end_load_date updated successfully for table: order_type
+2024-05-03 11:29:23,652 - end_load_date updated successfully for table: daily_sales_products
+2024-05-03 11:29:23,758 - IsCurrent updated successfully for table:dim_city
+2024-05-03 11:29:23,762 - IsCurrent updated successfully for table:dim_country
+2024-05-03 11:29:23,768 - IsCurrent updated successfully for table:dim_province
+2024-05-03 11:29:23,780 - IsCurrent updated successfully for table:dim_location
+2024-05-03 11:29:23,786 - IsCurrent updated successfully for table:dim_day_part
+2024-05-03 11:29:23,791 - IsCurrent updated successfully for table:dim_franchisee
+2024-05-03 11:29:23,795 - IsCurrent updated successfully for table:dim_product_category
+2024-05-03 11:29:23,815 - IsCurrent updated successfully for table:dim_stores
+2024-05-03 11:29:23,822 - IsCurrent updated successfully for table:dim_product_group_level1
+2024-05-03 11:29:23,827 - IsCurrent updated successfully for table:dim_product_group_level2
+2024-05-03 11:29:23,831 - IsCurrent updated successfully for table:dim_product_group_level3
+2024-05-03 11:29:23,894 - IsCurrent updated successfully for table:dim_product_group_level4
+2024-05-03 11:29:23,908 - IsCurrent updated successfully for table:dim_sales_type
+2024-05-03 11:29:23,917 - IsCurrent updated successfully for table:dim_trading_hours
+2024-05-03 11:29:23,921 - IsCurrent updated successfully for table:dim_volumn_band
+2024-05-03 11:29:23,923 - IsCurrent updated successfully for table:dim_owner_operator
+2024-05-03 11:29:23,926 - IsCurrent updated successfully for table:dim_order_type
+2024-05-03 11:29:55,736 - IsCurrent updated successfully for table:fact_daily_sales
+2024-05-03 11:35:19,190 - Effective updated successfully for table:dim_city
+2024-05-03 11:35:48,013 - Effective updated successfully for table:dim_city
+2024-05-03 11:35:48,013 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,027 - Effective updated successfully for table:dim_country
+2024-05-03 11:35:48,027 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,030 - Effective updated successfully for table:dim_province
+2024-05-03 11:35:48,030 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,036 - Effective updated successfully for table:dim_location
+2024-05-03 11:35:48,037 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,041 - Effective updated successfully for table:dim_day_part
+2024-05-03 11:35:48,042 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,047 - Effective updated successfully for table:dim_franchisee
+2024-05-03 11:35:48,047 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,055 - Effective updated successfully for table:dim_product_category
+2024-05-03 11:35:48,055 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,068 - Effective updated successfully for table:dim_stores
+2024-05-03 11:35:48,068 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,074 - Effective updated successfully for table:dim_product_group_level1
+2024-05-03 11:35:48,074 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,080 - Effective updated successfully for table:dim_product_group_level2
+2024-05-03 11:35:48,080 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,083 - Effective updated successfully for table:dim_product_group_level3
+2024-05-03 11:35:48,083 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,100 - Effective updated successfully for table:dim_product_group_level4
+2024-05-03 11:35:48,100 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,103 - Effective updated successfully for table:dim_sales_type
+2024-05-03 11:35:48,104 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,109 - Effective updated successfully for table:dim_trading_hours
+2024-05-03 11:35:48,109 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,113 - Effective updated successfully for table:dim_volumn_band
+2024-05-03 11:35:48,114 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,119 - Effective updated successfully for table:dim_owner_operator
+2024-05-03 11:35:48,119 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:35:48,123 - Effective updated successfully for table:dim_order_type
+2024-05-03 11:35:48,123 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:36:15,944 - Effective updated successfully for table:fact_daily_sales
+2024-05-03 11:36:15,945 - Error loading Effective in table fact_daily_sales
+2024-05-03 11:59:47,420 - Number of rows in city : 95
+2024-05-03 11:59:47,433 - Number of rows in country : 1
+2024-05-03 11:59:47,442 - Number of rows in province : 9
+2024-05-03 11:59:47,451 - Number of rows in day_part : 6
+2024-05-03 11:59:47,786 - Number of rows in day_date : 7672
+2024-05-03 11:59:47,801 - Number of rows in franchisee : 1
+2024-05-03 11:59:47,817 - Number of rows in product_category : 11
+2024-05-03 11:59:47,847 - Number of rows in stores : 266
+2024-05-03 11:59:47,879 - Number of rows in product_group_level1 : 3
+2024-05-03 11:59:47,906 - Number of rows in product_group_level2 : 3
+2024-05-03 11:59:47,933 - Number of rows in product_group_level3 : 3
+2024-05-03 11:59:48,006 - Number of rows in product_group_level4 : 1831
+2024-05-03 11:59:48,029 - Number of rows in sales_type : 9
+2024-05-03 11:59:48,054 - Number of rows in trading_hours : 2
+2024-05-03 11:59:48,063 - Number of rows in volumn_band : 11
+2024-05-03 11:59:48,077 - Number of rows in owner_operator : 37
+2024-05-03 11:59:48,090 - Number of rows in order_type : 6
+2024-05-03 12:00:08,133 - Number of rows in daily_sales_products : 1000000
+2024-05-03 12:00:08,142 - Number of rows in dw_batch : 0
+2024-05-03 12:00:08,145 - the total number of all rows = ,1009966
+2024-05-03 12:00:08,145 - loading tables as dataframes successul!
+2024-05-03 12:00:08,435 - dropping columns: sbID and/or dwbID successful!
+2024-05-03 12:00:08,448 - merging city,province and country tables successful!
+2024-05-03 12:00:08,461 - LocationID column successfully create
+2024-05-03 12:00:08,886 - Renamed columns McDelivery and McCafe for the stores table,and daily_sales_products 
+2024-05-03 12:00:08,888 - changing emails to not reference McDonald's successful
+2024-05-03 12:00:08,891 -  number of changed rows 11
+2024-05-03 12:00:08,895 -  number of changed rows 1 in franchisee table
+2024-05-03 12:00:08,942 -  number of changed rows 391 in ProductGroupLevel4 table,ProductLevel4Desc column. removed macdonald's references
+2024-05-03 12:00:08,950 - Successfully removed non-valid emails. Number of rows changed 6,in stores table,column EmailAddress.
+2024-05-03 12:00:08,965 - Successfully removed non-valid contact numbers. Number of rows changed 44,in stores table,column ContactNumber.
+2024-05-03 12:00:09,010 - Successfully formated StartTime and EndTime to time data type in DayPart table
+2024-05-03 12:00:09,021 -  Successfully converted ContactNumber column to a string in OwnerOperator table 
+2024-05-03 12:00:09,026 - Successfully converted integers into boolean type in Active column in OwnerOperator and franchisee tables.
+2024-05-03 12:00:09,269 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 12:00:09,484 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 12:00:09,733 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 12:00:09,984 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 12:00:10,263 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 12:00:10,489 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 12:00:10,706 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 12:00:10,935 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 12:00:11,260 - start time successfully loaded into dw_batch table
+2024-05-03 12:00:11,474 - Table 'dim_country' successfully loaded.
+2024-05-03 12:00:11,489 - Table 'dim_province' successfully loaded.
+2024-05-03 12:00:11,576 - Table 'dim_city' successfully loaded.
+2024-05-03 12:00:11,616 - Table 'dim_order_type' successfully loaded.
+2024-05-03 12:00:11,658 - Table 'dim_sales_type' successfully loaded.
+2024-05-03 12:00:11,695 - Table 'dim_trading_hours' successfully loaded.
+2024-05-03 12:00:11,715 - Table 'dim_volumn_band' successfully loaded.
+2024-05-03 12:00:21,568 - Table 'dim_day_date' successfully loaded.
+2024-05-03 12:00:21,590 - Table 'dim_day_part' successfully loaded.
+2024-05-03 12:00:21,632 - Table 'dim_location' successfully loaded.
+2024-05-03 12:00:21,659 - Table 'dim_owner_operator' successfully loaded.
+2024-05-03 12:00:21,684 - Table 'dim_franchisee' successfully loaded.
+2024-05-03 12:00:21,702 - Table 'dim_product_category' successfully loaded.
+2024-05-03 12:00:21,720 - Table 'dim_product_group_level1' successfully loaded.
+2024-05-03 12:00:21,740 - Table 'dim_product_group_level2' successfully loaded.
+2024-05-03 12:00:21,759 - Table 'dim_product_group_level3' successfully loaded.
+2024-05-03 12:00:22,269 - Table 'dim_product_group_level4' successfully loaded.
+2024-05-03 12:00:22,530 - Table 'dim_stores' successfully loaded.
+2024-05-03 12:17:39,161 - Table 'fact_daily_sales' successfully loaded.
+2024-05-03 12:17:39,163 - All tables have been successfully loaded. The file has been deleted
+2024-05-03 12:17:39,164 - Successfully finished loading at end_time:2024-05-03 12:17:39.164256+02:00
+2024-05-03 12:17:39,189 - end_load_date updated successfully.
+2024-05-03 12:17:39,195 - end_load_date updated successfully for table: city
+2024-05-03 12:17:39,205 - end_load_date updated successfully for table: country
+2024-05-03 12:17:39,219 - end_load_date updated successfully for table: province
+2024-05-03 12:17:39,225 - end_load_date updated successfully for table: day_part
+2024-05-03 12:17:39,351 - end_load_date updated successfully for table: day_date
+2024-05-03 12:17:39,354 - end_load_date updated successfully for table: franchisee
+2024-05-03 12:17:39,357 - end_load_date updated successfully for table: product_category
+2024-05-03 12:17:39,371 - end_load_date updated successfully for table: stores
+2024-05-03 12:17:39,378 - end_load_date updated successfully for table: product_group_level1
+2024-05-03 12:17:39,383 - end_load_date updated successfully for table: product_group_level2
+2024-05-03 12:17:39,386 - end_load_date updated successfully for table: product_group_level3
+2024-05-03 12:17:39,406 - end_load_date updated successfully for table: product_group_level4
+2024-05-03 12:17:39,411 - end_load_date updated successfully for table: sales_type
+2024-05-03 12:17:39,415 - end_load_date updated successfully for table: trading_hours
+2024-05-03 12:17:39,421 - end_load_date updated successfully for table: volumn_band
+2024-05-03 12:17:39,429 - end_load_date updated successfully for table: owner_operator
+2024-05-03 12:17:39,436 - end_load_date updated successfully for table: order_type
+2024-05-03 12:17:55,841 - end_load_date updated successfully for table: daily_sales_products
+2024-05-03 12:17:55,856 - IsCurrent updated successfully for table:dim_city
+2024-05-03 12:17:55,865 - IsCurrent updated successfully for table:dim_country
+2024-05-03 12:17:55,887 - IsCurrent updated successfully for table:dim_province
+2024-05-03 12:17:55,901 - IsCurrent updated successfully for table:dim_location
+2024-05-03 12:17:55,916 - IsCurrent updated successfully for table:dim_day_part
+2024-05-03 12:17:55,925 - IsCurrent updated successfully for table:dim_franchisee
+2024-05-03 12:17:55,942 - IsCurrent updated successfully for table:dim_product_category
+2024-05-03 12:17:55,955 - IsCurrent updated successfully for table:dim_stores
+2024-05-03 12:17:55,961 - IsCurrent updated successfully for table:dim_product_group_level1
+2024-05-03 12:17:55,973 - IsCurrent updated successfully for table:dim_product_group_level2
+2024-05-03 12:17:55,978 - IsCurrent updated successfully for table:dim_product_group_level3
+2024-05-03 12:17:56,016 - IsCurrent updated successfully for table:dim_product_group_level4
+2024-05-03 12:17:56,022 - IsCurrent updated successfully for table:dim_sales_type
+2024-05-03 12:17:56,028 - IsCurrent updated successfully for table:dim_trading_hours
+2024-05-03 12:17:56,033 - IsCurrent updated successfully for table:dim_volumn_band
+2024-05-03 12:17:56,037 - IsCurrent updated successfully for table:dim_owner_operator
+2024-05-03 12:17:56,043 - IsCurrent updated successfully for table:dim_order_type
+2024-05-03 12:18:25,754 - IsCurrent updated successfully for table:fact_daily_sales
+2024-05-03 12:18:25,756 - Effective updated successfully for table:dim_city
+2024-05-03 12:18:25,758 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,761 - Effective updated successfully for table:dim_country
+2024-05-03 12:18:25,762 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,766 - Effective updated successfully for table:dim_province
+2024-05-03 12:18:25,767 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,773 - Effective updated successfully for table:dim_location
+2024-05-03 12:18:25,774 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,780 - Effective updated successfully for table:dim_day_part
+2024-05-03 12:18:25,781 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,784 - Effective updated successfully for table:dim_franchisee
+2024-05-03 12:18:25,785 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,789 - Effective updated successfully for table:dim_product_category
+2024-05-03 12:18:25,789 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,796 - Effective updated successfully for table:dim_stores
+2024-05-03 12:18:25,796 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,801 - Effective updated successfully for table:dim_product_group_level1
+2024-05-03 12:18:25,801 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,804 - Effective updated successfully for table:dim_product_group_level2
+2024-05-03 12:18:25,804 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,809 - Effective updated successfully for table:dim_product_group_level3
+2024-05-03 12:18:25,810 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,828 - Effective updated successfully for table:dim_product_group_level4
+2024-05-03 12:18:25,828 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,832 - Effective updated successfully for table:dim_sales_type
+2024-05-03 12:18:25,832 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,836 - Effective updated successfully for table:dim_trading_hours
+2024-05-03 12:18:25,837 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,842 - Effective updated successfully for table:dim_volumn_band
+2024-05-03 12:18:25,842 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,846 - Effective updated successfully for table:dim_owner_operator
+2024-05-03 12:18:25,848 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:18:25,852 - Effective updated successfully for table:dim_order_type
+2024-05-03 12:18:25,852 - Error loading Effective in table fact_daily_sales
+2024-05-03 12:19:00,787 - Effective updated successfully for table:fact_daily_sales
+2024-05-03 12:19:00,787 - Error loading Effective in table fact_daily_sales
+2024-05-03 13:57:28,493 - Number of rows in city : 95
+2024-05-03 13:57:28,493 - Number of rows in country : 1
+2024-05-03 13:57:28,512 - Number of rows in province : 9
+2024-05-03 13:57:28,516 - Number of rows in day_part : 6
+2024-05-03 13:57:28,662 - Number of rows in day_date : 7672
+2024-05-03 13:57:28,721 - Number of rows in franchisee : 1
+2024-05-03 13:57:28,733 - Number of rows in product_category : 11
+2024-05-03 13:57:28,747 - Number of rows in stores : 266
+2024-05-03 13:57:28,754 - Number of rows in product_group_level1 : 3
+2024-05-03 13:57:28,759 - Number of rows in product_group_level2 : 3
+2024-05-03 13:57:28,767 - Number of rows in product_group_level3 : 3
+2024-05-03 13:57:28,781 - Number of rows in product_group_level4 : 1831
+2024-05-03 13:57:28,788 - Number of rows in sales_type : 9
+2024-05-03 13:57:28,793 - Number of rows in trading_hours : 2
+2024-05-03 13:57:28,799 - Number of rows in volumn_band : 11
+2024-05-03 13:57:28,804 - Number of rows in owner_operator : 37
+2024-05-03 13:57:28,810 - Number of rows in order_type : 6
+2024-05-03 13:57:39,027 - Number of rows in daily_sales_products : 1000000
+2024-05-03 13:57:39,043 - Number of rows in dw_batch : 0
+2024-05-03 13:57:39,050 - the total number of all rows = ,1009966
+2024-05-03 13:57:39,050 - loading tables as dataframes successul!
+2024-05-03 13:57:39,178 - dropping columns: sbID and/or dwbID successful!
+2024-05-03 13:57:39,194 - merging city,province and country tables successful!
+2024-05-03 13:57:39,213 - LocationID column successfully create
+2024-05-03 13:57:39,477 - Renamed columns McDelivery and McCafe for the stores table,and daily_sales_products 
+2024-05-03 13:57:39,477 - changing emails to not reference McDonald's successful
+2024-05-03 13:57:39,477 -  number of changed rows 11
+2024-05-03 13:57:39,477 -  number of changed rows 1 in franchisee table
+2024-05-03 13:57:39,514 -  number of changed rows 391 in ProductGroupLevel4 table,ProductLevel4Desc column. removed macdonald's references
+2024-05-03 13:57:39,517 - Successfully removed non-valid emails. Number of rows changed 6,in stores table,column EmailAddress.
+2024-05-03 13:57:39,526 - Successfully removed non-valid contact numbers. Number of rows changed 44,in stores table,column ContactNumber.
+2024-05-03 13:57:39,533 - Successfully formated StartTime and EndTime to time data type in DayPart table
+2024-05-03 13:57:39,549 -  Successfully converted ContactNumber column to a string in OwnerOperator table 
+2024-05-03 13:57:39,552 - Successfully converted integers into boolean type in Active column in OwnerOperator and franchisee tables.
+2024-05-03 13:57:39,709 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 13:57:39,857 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 13:57:40,022 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 13:57:40,213 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 13:57:40,364 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 13:57:40,509 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 13:57:40,666 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 13:57:40,811 - Successfully converted integers into boolean type in stores and DailySalesProducts
+2024-05-03 13:57:43,485 - start time successfully loaded into dw_batch table
+2024-05-03 13:57:43,564 - Table 'dim_country' successfully loaded.
+2024-05-03 13:57:43,568 - Table 'dim_province' successfully loaded.
+2024-05-03 13:57:43,594 - Table 'dim_city' successfully loaded.
+2024-05-03 13:57:43,603 - Table 'dim_order_type' successfully loaded.
+2024-05-03 13:57:43,612 - Table 'dim_sales_type' successfully loaded.
+2024-05-03 13:57:43,620 - Table 'dim_trading_hours' successfully loaded.
+2024-05-03 13:57:43,627 - Table 'dim_volumn_band' successfully loaded.
+2024-05-03 13:57:48,858 - Table 'dim_day_date' successfully loaded.
+2024-05-03 13:57:48,867 - Table 'dim_day_part' successfully loaded.
+2024-05-03 13:57:48,886 - Table 'dim_location' successfully loaded.
+2024-05-03 13:57:48,905 - Table 'dim_owner_operator' successfully loaded.
+2024-05-03 13:57:48,918 - Table 'dim_franchisee' successfully loaded.
+2024-05-03 13:57:48,927 - Table 'dim_product_category' successfully loaded.
+2024-05-03 13:57:48,933 - Table 'dim_product_group_level1' successfully loaded.
+2024-05-03 13:57:48,942 - Table 'dim_product_group_level2' successfully loaded.
+2024-05-03 13:57:48,950 - Table 'dim_product_group_level3' successfully loaded.
+2024-05-03 13:57:49,229 - Table 'dim_product_group_level4' successfully loaded.
+2024-05-03 13:57:49,362 - Table 'dim_stores' successfully loaded.
+2024-05-03 14:09:01,798 - Table 'fact_daily_sales' successfully loaded.
+2024-05-03 14:09:01,802 - All tables have been successfully loaded. The file has been deleted
+2024-05-03 14:09:01,802 - Successfully finished loading at end_time:2024-05-03 14:09:01.802863+02:00
+2024-05-03 14:09:01,831 - end_load_date updated successfully.
+2024-05-03 14:09:01,837 - end_load_date updated successfully for table: city
+2024-05-03 14:09:01,840 - end_load_date updated successfully for table: country
+2024-05-03 14:09:01,844 - end_load_date updated successfully for table: province
+2024-05-03 14:09:01,848 - end_load_date updated successfully for table: day_part
+2024-05-03 14:09:01,908 - end_load_date updated successfully for table: day_date
+2024-05-03 14:09:01,911 - end_load_date updated successfully for table: franchisee
+2024-05-03 14:09:01,917 - end_load_date updated successfully for table: product_category
+2024-05-03 14:09:01,925 - end_load_date updated successfully for table: stores
+2024-05-03 14:09:01,928 - end_load_date updated successfully for table: product_group_level1
+2024-05-03 14:09:01,931 - end_load_date updated successfully for table: product_group_level2
+2024-05-03 14:09:01,935 - end_load_date updated successfully for table: product_group_level3
+2024-05-03 14:09:01,943 - end_load_date updated successfully for table: product_group_level4
+2024-05-03 14:09:01,949 - end_load_date updated successfully for table: sales_type
+2024-05-03 14:09:01,952 - end_load_date updated successfully for table: trading_hours
+2024-05-03 14:09:01,955 - end_load_date updated successfully for table: volumn_band
+2024-05-03 14:09:01,958 - end_load_date updated successfully for table: owner_operator
+2024-05-03 14:09:01,961 - end_load_date updated successfully for table: order_type
+2024-05-03 14:09:17,102 - end_load_date updated successfully for table: daily_sales_products
+2024-05-03 14:09:17,111 - IsCurrent updated successfully for table:dim_city
+2024-05-03 14:09:17,115 - IsCurrent updated successfully for table:dim_country
+2024-05-03 14:09:17,118 - IsCurrent updated successfully for table:dim_province
+2024-05-03 14:09:17,122 - IsCurrent updated successfully for table:dim_location
+2024-05-03 14:09:17,125 - IsCurrent updated successfully for table:dim_day_part
+2024-05-03 14:09:17,128 - IsCurrent updated successfully for table:dim_franchisee
+2024-05-03 14:09:17,131 - IsCurrent updated successfully for table:dim_product_category
+2024-05-03 14:09:17,137 - IsCurrent updated successfully for table:dim_stores
+2024-05-03 14:09:17,140 - IsCurrent updated successfully for table:dim_product_group_level1
+2024-05-03 14:09:17,143 - IsCurrent updated successfully for table:dim_product_group_level2
+2024-05-03 14:09:17,147 - IsCurrent updated successfully for table:dim_product_group_level3
+2024-05-03 14:09:17,163 - IsCurrent updated successfully for table:dim_product_group_level4
+2024-05-03 14:09:17,166 - IsCurrent updated successfully for table:dim_sales_type
+2024-05-03 14:09:17,171 - IsCurrent updated successfully for table:dim_trading_hours
+2024-05-03 14:09:17,174 - IsCurrent updated successfully for table:dim_volumn_band
+2024-05-03 14:09:17,178 - IsCurrent updated successfully for table:dim_owner_operator
+2024-05-03 14:09:17,181 - IsCurrent updated successfully for table:dim_order_type
+2024-05-03 14:09:45,049 - IsCurrent updated successfully for table:fact_daily_sales
+2024-05-03 14:09:45,049 - Effective updated successfully for table:dim_city
+2024-05-03 14:09:45,059 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,063 - Effective updated successfully for table:dim_country
+2024-05-03 14:09:45,064 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,069 - Effective updated successfully for table:dim_province
+2024-05-03 14:09:45,070 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,078 - Effective updated successfully for table:dim_location
+2024-05-03 14:09:45,078 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,084 - Effective updated successfully for table:dim_day_part
+2024-05-03 14:09:45,084 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,088 - Effective updated successfully for table:dim_franchisee
+2024-05-03 14:09:45,088 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,093 - Effective updated successfully for table:dim_product_category
+2024-05-03 14:09:45,093 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,105 - Effective updated successfully for table:dim_stores
+2024-05-03 14:09:45,105 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,130 - Effective updated successfully for table:dim_product_group_level1
+2024-05-03 14:09:45,130 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,136 - Effective updated successfully for table:dim_product_group_level2
+2024-05-03 14:09:45,136 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,140 - Effective updated successfully for table:dim_product_group_level3
+2024-05-03 14:09:45,140 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,158 - Effective updated successfully for table:dim_product_group_level4
+2024-05-03 14:09:45,158 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,163 - Effective updated successfully for table:dim_sales_type
+2024-05-03 14:09:45,164 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,170 - Effective updated successfully for table:dim_trading_hours
+2024-05-03 14:09:45,170 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,176 - Effective updated successfully for table:dim_volumn_band
+2024-05-03 14:09:45,176 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,186 - Effective updated successfully for table:dim_owner_operator
+2024-05-03 14:09:45,186 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:09:45,190 - Effective updated successfully for table:dim_order_type
+2024-05-03 14:09:45,190 - Error loading Effective in table fact_daily_sales
+2024-05-03 14:10:09,303 - Effective updated successfully for table:fact_daily_sales
+2024-05-03 14:10:09,303 - Error loading Effective in table fact_daily_sales
